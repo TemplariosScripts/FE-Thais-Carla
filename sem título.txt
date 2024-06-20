@@ -1,0 +1,13 @@
+local args = {
+    [1] = "CharacterChange",
+    [2] = {
+        [1] = 15976071359,
+        [2] = 15976074123,
+        [3] = 15976074883,
+        [4] = 15976074171,
+        [5] = 15976074125,
+        [6] = 0
+    },
+}
+
+game:GetService("ReplicatedStorage").RE:FindFirstChild("1Avata1rOrigina1l"):FireServer(unpack(args))
